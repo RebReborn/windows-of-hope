@@ -26,9 +26,9 @@ const Navbar = () => {
                 { name: "Home", path: "/" },
                 { name: "About", path: "/about" },
                 { name: "Programs", path: "/programs" },
-                { name: "Academy", path: "/academy" },
-                { name: "Donate", path: "/donate" },
+                { name: "News", path: "/news" },
                 { name: "Volunteer", path: "/volunteer" },
+                { name: "Gallery", path: "/gallery" },
                 { name: "Contact", path: "/contact" },
                 { name: "Support Us", path: "/support" },
 
@@ -115,9 +115,9 @@ const Navbar = () => {
             { name: "Home", path: "/" },
             { name: "About", path: "/about" },
             { name: "Programs", path: "/programs" },
-            { name: "Academy", path: "/academy" },
-            { name: "Donate", path: "/donate" },
+            { name: "News", path: "/news" },
             { name: "Volunteer", path: "/volunteer" },
+            { name: "Gallery", path: "/gallery" },
             { name: "Contact", path: "/contact" },
             { name: "Support Us", path: "/support" },
 

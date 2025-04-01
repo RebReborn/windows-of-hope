@@ -11,6 +11,9 @@ import Donate from "./pages/Donate";
 import Volunteer from "./pages/Volunteer";
 import Contact from "./pages/Contact";
 import Support from "./pages/Support";
+import Footer from "./components/Footer";
+import News from "./pages/News";
+import Gallery from "./pages/Gallery";
 
 
 function App() {
@@ -28,9 +31,12 @@ function App() {
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/support" element={<Support />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/gallery" element={<Gallery />} />
 
           {/* You can add other routes like About, Programs, etc. here later */}
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
