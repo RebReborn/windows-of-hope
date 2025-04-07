@@ -14,6 +14,8 @@ import Support from "./pages/Support";
 import Footer from "./components/Footer";
 import News from "./pages/News";
 import Gallery from "./pages/Gallery";
+import { Analytics } from "@vercel/analytics/react";
+
 
 
 function App() {
@@ -36,6 +38,7 @@ function App() {
 
           {/* You can add other routes like About, Programs, etc. here later */}
         </Routes>
+        <Analytics />
         <Footer />
       </div>
     </Router>
